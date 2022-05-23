@@ -7,7 +7,58 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h2{
+  color: #e9c885;
+}
+
+h1, h3{
+  text-decoration: underline;
+}
+
+p{
+  font-weight: bold;
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.backgroundHome{
+    height:95%;
+    width:100%;
+    background-image: url("Images/HomeScreen_3.jpg");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    position:absolute;
+}
+
+.backgroundAbout{
+  height:95%;
+  width:100%;
+  background-image: url("Images/HomeScreen_4.jpg");
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  position:absolute;
+}
+
+.backgroundBooking{
+  height:95%;
+  width:100%;
+  background-color: rgb(121, 122, 117);
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  position:absolute;
+}
+
+.textBox{
+  border-radius: 10px;
+  background: #cbccc5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
